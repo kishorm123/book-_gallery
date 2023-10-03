@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-color: blueviolet;
+    width: 100%;
+    height: 50%;
+}
+header h3{
+    color: beige;
+    text-align: center;
+    padding: 10px;
+}
+header h3:hover{
+    color: brown;
+}
+footer h4,p{background-color: blueviolet;
+    width: 100%;
+    height: 50%;
+    color: antiquewhite;
+    text-align: center;
+}
+h5{
+    color: rgb(177, 110, 22);
+}
+footer h4,p:hover{
+    color: black;
+}
+.row{
+    width: 100%;
+    height: 500px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+img{
+    margin: 10px;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://thehermitage.com/wp-content/uploads/2020/05/AdobeStock_273578966-e1590528333318.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+}
+p{
+    display: flex;
+}
